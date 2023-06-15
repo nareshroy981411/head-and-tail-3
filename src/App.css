@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.nav-menu a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.head-tail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.column p {
+  margin: 0;
+}
+
+.dropdown {
+  margin-bottom: 10px;
+}
+
+.dropdown select {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 150px;
+}
+
+.submit-btn {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.validation-msg {
+  color: red;
+  margin-top: 10px;
+}
+
+.reset-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
